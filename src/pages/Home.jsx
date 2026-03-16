@@ -240,7 +240,7 @@ export default function Home() {
             ))}
           </div>
           <div style={{ textAlign: 'center', marginTop: '24px' }}>
-            <a href="https://www.google.com/maps/place/LEARNING+POINT/@17.4189079,78.4903468,17z/data=!4m8!3m7!1s0x3bcb99e746c506fb:0x67f7f1a5d3b1217f!8m2!3d17.4189079!4d78.4903468!9m1!1b1" target="_blank" rel="noreferrer" className="btn-outline">View All 41 Reviews on Google →</a>
+            <a href="https://maps.app.goo.gl/BEGtejzFgnVphU77A" target="_blank" rel="noreferrer" className="btn-outline">View All 41 Reviews on Google →</a>
             {/* <a href="https://share.google/qBSzSXIgh2o7mJ8Sg" target="_blank" rel="noreferrer" className="btn-outline">View All 41 Reviews on Google →</a> */}
           </div>
         </div>

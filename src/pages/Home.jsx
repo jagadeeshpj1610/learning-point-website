@@ -132,26 +132,25 @@ export default function Home() {
             <span className="sec-tag">Our Programs</span>
             <h2 className="sec-title">Courses We <span>Offer</span></h2>
             <p className="sec-sub" style={{ margin: '0 auto' }}>From Class X to IIT JEE — comprehensive coaching for every student.</p>
+            <div className="courses-preview-grid">
+              {[
+                { ico: '📖', title: 'Class X', desc: 'Strong board exam preparation with all subjects covered by dedicated teachers.', tags: ['Maths', 'Science', 'English', 'Social'] },
+                { ico: '🎯', title: 'Intermediate (MPC)', desc: 'Expert coaching for Maths, Physics & Chemistry with focus on concept clarity.', tags: ['Physics', 'Chemistry', 'Maths'] },
+                { ico: '🔬', title: 'IIT JEE & NEET', desc: 'Specialized coaching with unique tricks & shortcuts. Students cracking IIT JEE, NEET & EAMCET 2025!', tags: ['IIT JEE', 'NEET', 'EAMCET'] },
+              ].map(({ ico, title, desc, tags }, i) => (
+                <div className="card course-card" key={i}>
+                  <div className="course-top-bar" />
+                  <div className="course-ico">{ico}</div>
+                  <h3 className="course-title">{title}</h3>
+                  <p className="course-desc">{desc}</p>
+                  <div className="course-tags">{tags.map(t => <span className="ctag" key={t}>{t}</span>)}</div>
+                </div>
+              ))}
+            </div>
+            <div style={{ textAlign: 'center', marginTop: '32px' }}>
+              <Link to="/courses" className="btn-outline">View All Courses →</Link>
+            </div>
           </div>
-          <div className="courses-preview-grid">
-            {[
-              { ico: '🔬', title: 'IIT JEE & NEET', desc: 'Specialized coaching with unique tricks & shortcuts. Students cracking IIT JEE & NEET & EAMCET 2025!', tags: ['IIT JEE', 'NEET', 'EAMCET'] },
-              { ico: '🎯', title: 'Intermediate (MPC)', desc: 'Expert coaching for Maths, Physics & Chemistry with focus on concept clarity.', tags: ['Physics', 'Chemistry', 'Maths'] },
-              { ico: '🔬', title: 'IIT JEE & NEET', desc: 'Specialized coaching with unique tricks & shortcuts. Students cracking EAMCET 2025!', tags: ['IIT JEE', 'NEET', 'EAMCET'] },
-            ].map(({ ico, title, desc, tags }) => (
-              <div className="card course-card" key={title}>
-                <div className="course-top-bar" />
-                <div className="course-ico">{ico}</div>
-                <h3 className="course-title">{title}</h3>
-                <p className="course-desc">{desc}</p>
-                <div className="course-tags">{tags.map(t => <span className="ctag" key={t}>{t}</span>)}</div>
-              </div>
-            ))}
-          </div>
-          <div style={{ textAlign: 'center', marginTop: '32px' }}>
-            <Link to="/courses" className="btn-outline">View All Courses →</Link>
-          </div>
-        </div>
       </section>
 
       {/* RESULTS PREVIEW */}

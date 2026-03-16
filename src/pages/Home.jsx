@@ -38,8 +38,8 @@ const reviews = [
 
 const shorts = [
   { id: 'P4YXypMxJUY', title: 'EAMCET Maths Tips & Tricks' },
-  { id: 'SHORTS_ID_2', title: 'IIT JEE Preparation Strategy' },
-  { id: 'SHORTS_ID_3', title: 'Concept Based Learning' },
+  { id: 'WIxioxqBLDE', title: 'EAMCET - Short tricks' },
+  { id: 'KpEqJZzET9w', title: 'Circles-shortcut(EAMCET)' },
 ]
 
 export default function Home() {

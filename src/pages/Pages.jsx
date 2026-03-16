@@ -24,7 +24,7 @@ export function About() {
         <div className="container">
           <span className="sec-tag">About Us</span>
           <h1>Hyderabad's Most <span>Trusted</span><br />IIT JEE Coaching</h1>
-          <p>15+ years of experience. Concept-based learning. Proven results.</p>
+          <p>20+ years of experience. Concept-based learning. Proven results.</p>
         </div>
       </div>
 

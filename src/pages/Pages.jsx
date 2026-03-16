@@ -281,12 +281,12 @@ export function Results() {
 
 // ─── GALLERY PAGE ────────────────────────────────────────────────────────────
 const galleryItems = [
-  { label: '📚 Active Learning Session', size: 'large', img: '/photos/unnamed (2).webp' },
-  { label: '🏫 Our Classroom', size: 'small', img: '/photos/unnamed (3).webp' },
-  { label: '👨‍🎓 Our Students', size: 'small', img: '/photos/2021-04-04.webp' },
-  { label: '🎯 Expert Teaching', size: 'small', img: '/photos/74e9619d-0510-41ae-a11d-c1133e00f6a5.jpeg' },
-  { label: '🏆 Achievements', size: 'small', img: '/photos/801947f8-ed64-4516-9123-3487c94a4556.jpeg' },
-  { label: '🏗️ Our Centre', size: 'large', img: '/photos/unnamed (1).webp' },
+  { label: '📚 Active Learning Session', size: 'large', img: '/photos/unnamed2.webp' },
+  { label: '🏫 Our Classroom', size: 'small', img: '/photos/unnamed3.webp' },
+  { label: '👨‍🎓 Our Students', size: 'small', img: '/photos/grouphoto.webp' },
+  { label: '🎯 Expert Teaching', size: 'small', img: '/photos/classroom.jpeg' },
+  { label: '🏆 Achievements', size: 'small', img: '/photos/classroom1.jpeg' },
+  { label: '🏗️ Our Centre', size: 'large', img: '/photos/unnamed1.webp' },
 ]
 
 export function Gallery() {

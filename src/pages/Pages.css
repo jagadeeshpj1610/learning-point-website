@@ -103,7 +103,7 @@
 
 
 /* CONTACT */
-/* .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
 .contact-items { display: flex; flex-direction: column; gap: 16px; }
 .contact-item { display: flex; align-items: flex-start; gap: 14px; }
 .ci-ico { width: 42px; height: 42px; background: var(--sky-pale); border: 1px solid var(--sky-border); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 17px; flex-shrink: 0; }
@@ -119,7 +119,7 @@
 .form-field input, .form-field select, .form-field textarea { width: 100%; background: white; border: 1px solid var(--sky-border); border-radius: 8px; padding: 10px 14px; color: var(--sky-head); font-size: 13px; font-family: 'Poppins', sans-serif; outline: none; transition: border-color 0.2s; }
 .form-field input:focus, .form-field select:focus, .form-field textarea:focus { border-color: var(--sky); }
 .form-field textarea { height: 90px; resize: none; }
-.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; } */
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 
 /* RESPONSIVE */
 @media (max-width: 1100px) { .why-grid { grid-template-columns: repeat(2,1fr); } }

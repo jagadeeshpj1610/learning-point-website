@@ -333,69 +333,69 @@ export function Gallery() {
 }
 
 // ─── CONTACT PAGE ────────────────────────────────────────────────────────────
-// export function Contact() {
-//   return (
-//     <>
-//       <div className="page-hero">
-//         <div className="container">
-//           <span className="sec-tag">Contact Us</span>
-//           <h1>Visit Us <span>Today!</span></h1>
-//           <p>We're here to help you achieve your academic goals</p>
-//         </div>
-//       </div>
-//       <section className="sec sec-white">
-//         <div className="container contact-grid">
-//           <div>
-//             <h2 className="sec-title" style={{ marginBottom: '24px' }}>Get In <span>Touch</span></h2>
-//             <div className="contact-items">
-//               {[
-//                 ['📍', 'Address', 'Plot No. 9, Near Samrakshana School, Solitier Residency, Gandhinagar, Kavadiguda, Hyderabad, Telangana 500080'],
-//                 ['📞', 'Phone Numbers', '82477 25301  |  98856 09184  |  98665 81315'],
-//                 ['✉️', 'Email', 'learningpoint1729@gmail.com'],
-//                 ['🕐', 'Batch Timings', 'Morning: 6:00 AM – 8:30 AM\nEvening: 6:00 PM – 8:30 PM'],
-//                 ['📅', 'Working Days', 'Monday to Saturday'],
-//                 ['⭐', 'Google Rating', '5.0 ★ · 41 Reviews · Coaching Center'],
-//               ].map(([ico, lbl, val]) => (
-//                 <div className="contact-item" key={lbl}>
-//                   <div className="ci-ico">{ico}</div>
-//                   <div>
-//                     <div className="ci-lbl">{lbl}</div>
-//                     <div className="ci-val">{val.split('\n').map((l, i) => <span key={i}>{l}{val.includes('\n') && i === 0 && <br />}</span>)}</div>
-//                   </div>
-//                 </div>
-//               ))}
-//             </div>
-//             <div style={{ display: 'flex', gap: '12px', marginTop: '28px', flexWrap: 'wrap' }}>
-//               <a href="https://wa.me/918247725301" className="btn-primary" target="_blank" rel="noreferrer">
-//                 <FaWhatsapp size={16} /> WhatsApp Us
-//               </a>
-//               <a href="tel:8247725301" className="btn-outline">📞 Call Now</a>
-//             </div>
-//             <div className="map-box">
-//               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.0!2d78.4903468!3d17.4189079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99e746c506fb%3A0x67f7f1a5d3b1217f!2sLEARNING%20POINT!5e0!3m2!1sen!2sin!4v1" allowFullScreen loading="lazy" title="Learning Point Location" />
-//             </div>
-//           </div>
+export function Contact() {
+  return (
+    <>
+      <div className="page-hero">
+        <div className="container">
+          <span className="sec-tag">Contact Us</span>
+          <h1>Visit Us <span>Today!</span></h1>
+          <p>We're here to help you achieve your academic goals</p>
+        </div>
+      </div>
+      <section className="sec sec-white">
+        <div className="container contact-grid">
+          <div>
+            <h2 className="sec-title" style={{ marginBottom: '24px' }}>Get In <span>Touch</span></h2>
+            <div className="contact-items">
+              {[
+                ['📍', 'Address', 'Plot No. 9, Near Samrakshana School, Solitier Residency, Gandhinagar, Kavadiguda, Hyderabad, Telangana 500080'],
+                ['📞', 'Phone Numbers', '82477 25301  |  98856 09184  |  98665 81315'],
+                ['✉️', 'Email', 'learningpoint1729@gmail.com'],
+                ['🕐', 'Batch Timings', 'Morning: 6:00 AM – 8:30 AM\nEvening: 6:00 PM – 8:30 PM'],
+                ['📅', 'Working Days', 'Monday to Saturday'],
+                ['⭐', 'Google Rating', '5.0 ★ · 41 Reviews · Coaching Center'],
+              ].map(([ico, lbl, val]) => (
+                <div className="contact-item" key={lbl}>
+                  <div className="ci-ico">{ico}</div>
+                  <div>
+                    <div className="ci-lbl">{lbl}</div>
+                    <div className="ci-val">{val.split('\n').map((l, i) => <span key={i}>{l}{val.includes('\n') && i === 0 && <br />}</span>)}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div style={{ display: 'flex', gap: '12px', marginTop: '28px', flexWrap: 'wrap' }}>
+              <a href="https://wa.me/918247725301" className="btn-primary" target="_blank" rel="noreferrer">
+                <FaWhatsapp size={16} /> WhatsApp Us
+              </a>
+              <a href="tel:8247725301" className="btn-outline">📞 Call Now</a>
+            </div>
+            <div className="map-box">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.0!2d78.4903468!3d17.4189079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99e746c506fb%3A0x67f7f1a5d3b1217f!2sLEARNING%20POINT!5e0!3m2!1sen!2sin!4v1" allowFullScreen loading="lazy" title="Learning Point Location" />
+            </div>
+          </div>
 
-//           <div className="contact-form-box">
-//             <h3 className="form-title">Send an Enquiry</h3>
-//             <p className="form-sub">We'll get back to you within a few hours</p>
-//             <div className="form-row">
-//               <div className="form-field"><label>Your Name</label><input type="text" placeholder="Full name" /></div>
-//               <div className="form-field"><label>Phone Number</label><input type="text" placeholder="+91 XXXXX XXXXX" /></div>
-//             </div>
-//             <div className="form-field">
-//               <label>Course Interested</label>
-//               <select><option>Select a course...</option><option>IIT JEE</option><option>EAMCET</option><option>NEET</option><option>Intermediate (MPC)</option><option>Class X</option><option>BITSAT</option></select>
-//             </div>
-//             <div className="form-field">
-//               <label>Preferred Batch</label>
-//               <select><option>Select batch...</option><option>Morning (6:00 AM – 8:30 AM)</option><option>Evening (6:00 PM – 8:30 PM)</option></select>
-//             </div>
-//             <div className="form-field"><label>Message</label><textarea placeholder="Any questions or requirements..." /></div>
-//             <button className="btn-primary" style={{ width: '100%', justifyContent: 'center', padding: '13px' }}>Send Enquiry →</button>
-//           </div>
-//         </div>
-//       </section>
-//     </>
-//   )
-// }
+          <div className="contact-form-box">
+            <h3 className="form-title">Send an Enquiry</h3>
+            <p className="form-sub">We'll get back to you within a few hours</p>
+            <div className="form-row">
+              <div className="form-field"><label>Your Name</label><input type="text" placeholder="Full name" /></div>
+              <div className="form-field"><label>Phone Number</label><input type="text" placeholder="+91 XXXXX XXXXX" /></div>
+            </div>
+            <div className="form-field">
+              <label>Course Interested</label>
+              <select><option>Select a course...</option><option>IIT JEE</option><option>EAMCET</option><option>NEET</option><option>Intermediate (MPC)</option><option>Class X</option><option>BITSAT</option></select>
+            </div>
+            <div className="form-field">
+              <label>Preferred Batch</label>
+              <select><option>Select batch...</option><option>Morning (6:00 AM – 8:30 AM)</option><option>Evening (6:00 PM – 8:30 PM)</option></select>
+            </div>
+            <div className="form-field"><label>Message</label><textarea placeholder="Any questions or requirements..." /></div>
+            <button className="btn-primary" style={{ width: '100%', justifyContent: 'center', padding: '13px' }}>Send Enquiry →</button>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}

@@ -52,7 +52,7 @@ export default function Home() {
             <div className="badge"><span className="badge-dot" /> Admissions Open 2026</div>
             <h1>Learning Point For <span>IIT JEE</span> Coaching</h1>
             <p className="tagline">"A learning curve is essential to growth"</p>
-            <p className="hero-sub">Expert coaching for IIT JEE, NEET, EAMCET & Intermediate. Concept-based learning with 15+ years experienced faculty in Kavadiguda, Hyderabad.</p>
+            <p className="hero-sub">Expert coaching for IIT JEE, NEET, EAMCET & Intermediate. Concept-based learning with 20+ years experienced faculty in Kavadiguda, Hyderabad.</p>
             <div className="hero-btns">
               <a href="https://wa.me/918247725301" className="btn-white" target="_blank" rel="noreferrer">
                 <FaWhatsapp size={16} /> WhatsApp Us
@@ -89,7 +89,7 @@ export default function Home() {
       {/* STATS */}
       <section className="sec sec-white">
         <div className="container stats-grid">
-          {[['41+', 'Google Reviews'], [`15+`, 'Years Experience'], ['5.0★', 'Google Rating'], ['25', 'Max Batch Size']].map(([n, l]) => (
+          {[['41+', 'Google Reviews'], [`20+`, 'Years Experience'], ['5.0★', 'Google Rating'], ['25', 'Max Batch Size']].map(([n, l]) => (
             <div className="stat-box" key={l}>
               <div className="stat-num">{n}</div>
               <div className="stat-lbl">{l}</div>
@@ -105,7 +105,7 @@ export default function Home() {
             <span className="sec-tag">About Us</span>
             <h2 className="sec-title">Hyderabad's Most <span>Trusted</span> IIT JEE Coaching</h2>
             <p>Learning Point is Hyderabad's trusted coaching center for IIT JEE, NEET, and EAMCET. Our concept-based learning approach has helped hundreds of students crack competitive exams.</p>
-            <p>Led by <strong>Mr. Vamshi Rao</strong> (MSc, BEd, PhD — Mathematics) with 15+ years of experience, we provide personalized attention with a maximum of 25 students per batch.</p>
+            <p>Led by <strong>Mr. Vamshi Rao</strong> (MSc, BEd, PhD — Mathematics) with 20+ years of experience, we provide personalized attention with a maximum of 25 students per batch.</p>
             <div className="feat-grid">
               {[['👨‍🏫', 'Expert Faculty'], ['💡', 'Unique Tricks'], ['🏗️', 'Good Infrastructure'], ['🌅', 'Flexible Batches'], ['❤️', 'Individual Attention'], ['🌟', '5.0 Star Rated']].map(([ico, lbl]) => (
                 <div className="feat-pill" key={lbl}><span className="feat-ico">{ico}</span>{lbl}</div>
@@ -167,7 +167,7 @@ export default function Home() {
               { name: 'Rachana', achievement: '960/1000', exam: 'Board Exams', icon: '🏆' },
               { name: 'Meher Sai', achievement: 'Rank 733', exam: 'TS EAMCET', icon: '🥇' },
               { name: 'Siddarth', achievement: 'Rank 992', exam: 'TS EAMCET', icon: '🥈' },
-              { name: 'Anonymous', achievement: '99.2%ile', exam: 'JEE Mains', icon: '🎯' },
+              { name: 'Learning Point Student', achievement: '99.2%ile', exam: 'JEE Mains', icon: '🎯' },
             ].map(({ name, achievement, exam, icon }) => (
               <div className="result-card" key={name}>
                 <div className="result-icon">{icon}</div>

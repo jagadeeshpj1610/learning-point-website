@@ -1,1 +1,1 @@
-// export { Contact as default } from './Pages.jsx'
+export { Contact as default } from './Pages.jsx'

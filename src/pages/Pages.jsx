@@ -311,7 +311,7 @@ export function Gallery() {
                 style={{ animationDelay: `${i * 0.08}s` }}
                 onClick={() => setSelected(item)}
               >
-                <img src={item.img} alt={item.label} />
+                <img src={item.img} alt={item.label} loading='lazy' />
                 <div className="gallery-label">{item.label}</div>
               </div>
             ))}

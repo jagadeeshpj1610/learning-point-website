@@ -1,14 +1,15 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, lazy, Suspense } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import FloatBtns from './components/FloatBtns'
-import Home from './pages/Home'
-import About from './pages/About'
-import Courses from './pages/Courses'
-import Results from './pages/Results'
-import Gallery from './pages/Gallery'
-import Contact from './pages/Contact'
+
+const Home = lazy(() => import('./pages/Home'))
+const About = lazy(() => import('./pages/About'))
+const Courses = lazy(() => import('./pages/Courses'))
+const Results = lazy(() => import('./pages/Results'))
+const Gallery = lazy(() => import('./pages/Gallery'))
+const Contact = lazy(() => import('./pages/Contact'))
 
 function ScrollTop() {
   const { pathname } = useLocation()
@@ -21,14 +22,16 @@ export default function App() {
     <>
       <ScrollTop />
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/courses" element={<Courses />} />
-        <Route path="/results" element={<Results />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <Suspense fallback={<div style={{ display:'flex', justifyContent:'center', alignItems:'center', height:'100vh', color:'#0EA5E9', fontSize:'18px', fontWeight:'600' }}>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/results" element={<Results />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Suspense>
       <Footer />
       <FloatBtns />
     </>

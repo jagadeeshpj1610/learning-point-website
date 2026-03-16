@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container footer-grid">
         <div>
           <div className="footer-logo">
-            <img src="/learning-point-website/photos/logo.jpeg" alt="Learning Point" style={{ height: '40px', width: '40px', borderRadius: '8px', objectFit: 'cover' }} />
+            <img src="/learning-point-website/photos/logo.jpeg" alt="Learning Point" style={{ height: '40px', width: '40px', borderRadius: '8px', objectFit: 'cover', }} loading='lazy' />
             <div>
               <div className="footer-logo-name">Learning Point</div>
               <div className="footer-logo-sub">IIT JEE Coaching</div>

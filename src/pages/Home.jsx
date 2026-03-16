@@ -135,7 +135,7 @@ export default function Home() {
           </div>
           <div className="courses-preview-grid">
             {[
-              { ico: '📖', title: 'Class X', desc: 'Strong board exam preparation with all subjects covered by dedicated teachers.', tags: ['Maths', 'Science', 'English', 'Social'] },
+              { ico: '🔬', title: 'IIT JEE & NEET', desc: 'Specialized coaching with unique tricks & shortcuts. Students cracking IIT JEE & NEET 2025!', tags: ['IIT JEE', 'NEET', 'EAMCET'] },
               { ico: '🎯', title: 'Intermediate (MPC)', desc: 'Expert coaching for Maths, Physics & Chemistry with focus on concept clarity.', tags: ['Physics', 'Chemistry', 'Maths'] },
               { ico: '🔬', title: 'IIT JEE & NEET', desc: 'Specialized coaching with unique tricks & shortcuts. Students cracking EAMCET 2025!', tags: ['IIT JEE', 'NEET', 'EAMCET'] },
             ].map(({ ico, title, desc, tags }) => (

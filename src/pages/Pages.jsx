@@ -98,7 +98,7 @@ const allCourses = [
     ico: '🔬', title: 'IIT JEE', sub: 'Yearly & Crash Course', popular: true,
     desc: 'Specialized IIT JEE coaching with unique tricks, shortcut methods and focused guidance. Faculty with 15+ years experience. Most of our students achieved below 5000 ranks in EAMCET 2021 & 2022.',
     tags: ['IIT JEE Main', 'JEE Advanced', 'BITSAT'], subjects: ['Mathematics', 'Physics', 'Chemistry'],
-    fee: 'Upto ₹1,80,000/year approx', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
+    fee: '1,20,000 Max/Year', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
   },
   {
     ico: '🎯', title: 'EAMCET', sub: 'TS & AP EAMCET', popular: false,
@@ -188,7 +188,7 @@ export function Courses() {
             <div className="fee-note-icon">💡</div>
             <div>
               <div className="fee-note-title">Contact Us for Current Fee Details</div>
-              <div className="fee-note-text">IIT JEE yearly course: Upto ₹1,80,000/year approx. For crash courses and other programs, contact us directly.</div>
+              <div className="fee-note-text">IIT JEE yearly course: Upto ₹1,20,000 Max/Year. For crash courses and other programs, contact us directly.</div>
               <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', marginTop: '16px', flexWrap: 'wrap' }}>
                 <a href="https://wa.me/918247725301" className="btn-primary" target="_blank" rel="noreferrer">
                   <FaWhatsapp size={16} /> WhatsApp : 82477 25301
@@ -251,7 +251,7 @@ export function Results() {
             <h2 className="sec-title">Why Our <span>Results Speak</span></h2>
           </div>
           <div className="track-grid">
-            {[['Most of our students', 'achieved below 5000 ranks in EAMCET 2021 & 2022'], ['20+ years', 'of proven teaching experience'], ['99.7 percentile', 'in JEE Mains achieved by our student'], ['960/1000', 'scored in board exams by our student Rachana']].map(([n, l]) => (
+            {[['Most of our students', 'achieved below 5000 ranks in EAMCET 2025, 2024, 2023, 2022 & 2021'], ['20+ years', 'of proven teaching experience'], ['99.7 percentile', 'in JEE Mains achieved by our student'], ['960/1000', 'scored in board exams by our student Rachana']].map(([n, l]) => (
               <div className="track-card" key={n}>
                 <div className="track-num">{n}</div>
                 <div className="track-lbl">{l}</div>

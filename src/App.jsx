@@ -5,10 +5,10 @@ import Footer from './components/Footer'
 import FloatBtns from './components/FloatBtns'
 import Home from './pages/Home'
 import About from './pages/About'
-import Courses from './pages/Courses'
-import Results from './pages/Results'
-import Gallery from './pages/Gallery'
-import Contact from './pages/Contact'
+// import Courses from './pages/Courses'
+// import Results from './pages/Results'
+// import Gallery from './pages/Gallery'
+// import Contact from './pages/Contact'
 
 function ScrollTop() {
   const { pathname } = useLocation()
@@ -24,10 +24,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/courses" element={<Courses />} />
+        {/* <Route path="/courses" element={<Courses />} />
         <Route path="/results" element={<Results />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <Footer />
       <FloatBtns />

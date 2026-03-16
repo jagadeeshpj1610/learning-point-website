@@ -309,57 +309,57 @@ export function Results() {
 }
 
 // ─── GALLERY PAGE ────────────────────────────────────────────────────────────
-// const galleryItems = [
-//   { label: '📚 Active Learning Session', size: 'large', img: '/photos/unnamed (2).webp' },
-//   { label: '🏫 Our Classroom', size: 'small', img: '/photos/unnamed (3).webp' },
-//   { label: '👨‍🎓 Our Students', size: 'small', img: '/photos/2021-04-04.webp' },
-//   { label: '🎯 Expert Teaching', size: 'small', img: '/photos/74e9619d-0510-41ae-a11d-c1133e00f6a5.jpeg' },
-//   { label: '🏆 Achievements', size: 'small', img: '/photos/801947f8-ed64-4516-9123-3487c94a4556.jpeg' },
-//   { label: '🏗️ Our Centre', size: 'large', img: '/photos/unnamed (1).webp' },
-// ]
+const galleryItems = [
+  { label: '📚 Active Learning Session', size: 'large', img: '/photos/unnamed (2).webp' },
+  { label: '🏫 Our Classroom', size: 'small', img: '/photos/unnamed (3).webp' },
+  { label: '👨‍🎓 Our Students', size: 'small', img: '/photos/2021-04-04.webp' },
+  { label: '🎯 Expert Teaching', size: 'small', img: '/photos/74e9619d-0510-41ae-a11d-c1133e00f6a5.jpeg' },
+  { label: '🏆 Achievements', size: 'small', img: '/photos/801947f8-ed64-4516-9123-3487c94a4556.jpeg' },
+  { label: '🏗️ Our Centre', size: 'large', img: '/photos/unnamed (1).webp' },
+]
 
-// export function Gallery() {
-//   const [selected, setSelected] = useState(null)
+export function Gallery() {
+  const [selected, setSelected] = useState(null)
 
-//   return (
-//     <>
-//       <div className="page-hero">
-//         <div className="container">
-//           <span className="sec-tag">Gallery</span>
-//           <h1>Life at <span>Learning Point</span></h1>
-//           <p>A glimpse into our vibrant classrooms and learning environment</p>
-//         </div>
-//       </div>
-//       <section className="sec sec-white">
-//         <div className="container">
-//           <div className="gallery-masonry">
-//             {galleryItems.map((item, i) => (
-//               <div
-//                 className={`gallery-item ${item.size}`}
-//                 key={i}
-//                 style={{ animationDelay: `${i * 0.08}s` }}
-//                 onClick={() => setSelected(item)}
-//               >
-//                 <img src={item.img} alt={item.label} />
-//                 <div className="gallery-label">{item.label}</div>
-//               </div>
-//             ))}
-//           </div>
-//           <div style={{ textAlign: 'center', marginTop: '32px', color: 'var(--gray)', fontSize: '13px' }}>
-//             📸 Visit our <a href="https://www.justdial.com" target="_blank" rel="noreferrer" style={{ color: 'var(--sky)' }}>Just Dial page</a> for 100+ photos.
-//           </div>
-//         </div>
-//       </section>
+  return (
+    <>
+      <div className="page-hero">
+        <div className="container">
+          <span className="sec-tag">Gallery</span>
+          <h1>Life at <span>Learning Point</span></h1>
+          <p>A glimpse into our vibrant classrooms and learning environment</p>
+        </div>
+      </div>
+      <section className="sec sec-white">
+        <div className="container">
+          <div className="gallery-masonry">
+            {galleryItems.map((item, i) => (
+              <div
+                className={`gallery-item ${item.size}`}
+                key={i}
+                style={{ animationDelay: `${i * 0.08}s` }}
+                onClick={() => setSelected(item)}
+              >
+                <img src={item.img} alt={item.label} />
+                <div className="gallery-label">{item.label}</div>
+              </div>
+            ))}
+          </div>
+          <div style={{ textAlign: 'center', marginTop: '32px', color: 'var(--gray)', fontSize: '13px' }}>
+            📸 Visit our <a href="https://jsdl.in/DT-28AAEIYU2A2" target="_blank" rel="noreferrer" style={{ color: 'var(--sky)' }}>Just Dial page</a> for 100+ photos.
+          </div>
+        </div>
+      </section>
 
-//       {selected && (
-//         <div className="lightbox" onClick={() => setSelected(null)}>
-//           <button className="lightbox-close" onClick={() => setSelected(null)}>✕</button>
-//           <img src={selected.img} alt={selected.label} />
-//         </div>
-//       )}
-//     </>
-//   )
-// }
+      {selected && (
+        <div className="lightbox" onClick={() => setSelected(null)}>
+          <button className="lightbox-close" onClick={() => setSelected(null)}>✕</button>
+          <img src={selected.img} alt={selected.label} />
+        </div>
+      )}
+    </>
+  )
+}
 
 // ─── CONTACT PAGE ────────────────────────────────────────────────────────────
 // export function Contact() {

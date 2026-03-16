@@ -50,7 +50,7 @@ export default function Home() {
         <div className="container hero-inner">
           <div className="hero-left">
             <div className="badge"><span className="badge-dot" /> Admissions Open 2026</div>
-            <h1>Learning Point <span>IIT JEE</span> Coaching</h1>
+            <h1>Learning Point For <span>IIT JEE</span> Coaching</h1>
             <p className="tagline">"A learning curve is essential to growth"</p>
             <p className="hero-sub">Expert coaching for IIT JEE, NEET, EAMCET & Intermediate. Concept-based learning with 15+ years experienced faculty in Kavadiguda, Hyderabad.</p>
             <div className="hero-btns">
@@ -167,7 +167,7 @@ export default function Home() {
               { name: 'Rachana', achievement: '960/1000', exam: 'Board Exams', icon: '🏆' },
               { name: 'Meher Sai', achievement: 'Rank 733', exam: 'TS EAMCET', icon: '🥇' },
               { name: 'Siddarth', achievement: 'Rank 992', exam: 'TS EAMCET', icon: '🥈' },
-              { name: 'Anonymous', achievement: '97.7%ile', exam: 'JEE Mains', icon: '🎯' },
+              { name: 'Anonymous', achievement: '99.2%ile', exam: 'JEE Mains', icon: '🎯' },
             ].map(({ name, achievement, exam, icon }) => (
               <div className="result-card" key={name}>
                 <div className="result-icon">{icon}</div>

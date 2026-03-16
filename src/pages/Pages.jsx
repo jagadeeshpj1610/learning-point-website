@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 import './Pages.css'
 
 const whys = [
-  ['👨‍🏫', 'Experienced Faculty', 'Highly qualified teachers who explain concepts clearly. Led by Mr. Vamshi Rao with 15+ years of experience.'],
+  ['👨‍🏫', 'Experienced Faculty', 'Highly qualified teachers who explain concepts clearly. Led by Mr. Vamshi Rao with 20+ years of experience.'],
   ['💡', 'Unique Tricks & Shortcuts', 'Special maths tricks and EAMCET shortcuts that make exams much easier — students cracking EAMCET 2025!'],
   ['🏗️', 'Good Infrastructure', 'Well-equipped classrooms in a conducive learning environment. Small batches of max 25 students.'],
   ['❤️', 'Individual Attention', 'Every student gets personal attention. We identify strengths and weaknesses and work on them individually.'],
@@ -33,7 +33,7 @@ export function About() {
           <div>
             <span className="sec-tag">Our Story</span>
             <h2 className="sec-title">About <span>Learning Point</span></h2>
-            <p className="body-text">Learning Point is Hyderabad's trusted coaching center for IIT JEE, NEET, EAMCET, and Intermediate. Located in Kavadiguda, Gandhinagar, Hyderabad, we have been shaping academic futures with concept-based learning for over 15 years.</p>
+            <p className="body-text">Learning Point is Hyderabad's trusted coaching center for IIT JEE, NEET, EAMCET, and Intermediate. Located in Kavadiguda, Gandhinagar, Hyderabad, we have been shaping academic futures with concept-based learning for over 20 years.</p>
             <p className="body-text">Our philosophy — <em>"A learning curve is essential to growth"</em> — drives everything we do. We believe every student has the potential to excel when given the right guidance, individual attention, and conceptual clarity.</p>
             <p className="body-text">With a maximum batch size of 25 students, we ensure every student receives personalized attention. Our faculty uses unique shortcut methods, discusses most-repeated model questions, and conducts regular portion-wise tests to prepare students thoroughly.</p>
           </div>
@@ -42,7 +42,7 @@ export function About() {
               <div className="info-icon">👨‍🏫</div>
               <div className="info-title">Mr. Vamshi Rao</div>
               <div className="info-sub">MSc, BEd, PhD — Mathematics</div>
-              <div className="info-desc">15+ years of experience in teaching Mathematics for IIT JEE, EAMCET and competitive exams. Known for unique shortcuts and tricks that simplify complex problems.</div>
+              <div className="info-desc">20+ years of experience in teaching Mathematics for IIT JEE, EAMCET and competitive exams. Known for unique shortcuts and tricks that simplify complex problems.</div>
             </div>
             <div className="quick-facts">
               {[['📍', 'Address', 'Plot No. 9, Near Samrakshana School, Solitier Residency, Kavadiguda, Hyderabad 500080'], ['📞', 'Phone', '82477 25301 | 98856 09184'], ['✉️', 'Email', 'learningpoint1729@gmail.com'], ['🕐', 'Timings', 'Morning: 6–8:30 AM | Evening: 6–8:30 PM'], ['👥', 'Batch Size', 'Max 25 students per batch'], ['🌐', 'Mode', 'Offline + Online']].map(([ico, lbl, val]) => (
@@ -145,35 +145,6 @@ export function Courses() {
 
       <section className="sec sec-white" style={{ paddingTop: '50px', overflow: 'visible' }}>
         <div className="container">
-          {/* <div className="all-courses-grid">
-            {allCourses.map(({ ico, title, sub, popular, desc, tags, subjects, fee, batches }) => (
-              <div className={`course-detail-card ${popular ? 'popular' : ''}`} key={title}>
-                <div className="cdc-top-bar-wrapper">
-                  <div className="cdc-top-bar" />
-                </div>
-                {popular && <div className="popular-badge">⭐ Most Popular</div>}
-                <div className="cdc-header">
-                  <div className="cdc-ico">{ico}</div>
-                  <div>
-                    <div className="cdc-title">{title}</div>
-                    <div className="cdc-sub">{sub}</div>
-                  </div>
-                </div>
-                <p className="cdc-desc">{desc}</p>
-                <div className="cdc-section-title">Subjects</div>
-                <div className="cdc-tags">{subjects.map(s => <span className="ctag" key={s}>{s}</span>)}</div>
-                <div className="cdc-section-title" style={{ marginTop: '12px' }}>Exam Focus</div>
-                <div className="cdc-tags">{tags.map(t => <span className="ctag-gold" key={t}>{t}</span>)}</div>
-                <div className="cdc-info">
-                  <div className="cdc-info-row"><span>💰</span><div><div className="cdc-info-lbl">Fee</div><div className="cdc-info-val">{fee}</div></div></div>
-                  <div className="cdc-info-row"><span>🕐</span><div><div className="cdc-info-lbl">Batches</div><div className="cdc-info-val">{batches}</div></div></div>
-                </div>
-                <a href="https://wa.me/918247725301" className="btn-primary" target="_blank" rel="noreferrer">
-                  <FaWhatsapp size={16} /> WhatsApp : 82477 25301
-                </a>
-              </div>
-            ))}
-          </div> */}
           <div className="all-courses-grid">
             {allCourses.map(({ ico, title, sub, popular, desc, tags, subjects, fee, batches }) => (
               <div className="course-card-wrapper" key={title}>
@@ -239,8 +210,8 @@ const results = [
   { name: 'Siddarth (Annamaneni)', achievement: 'Rank 992', exam: 'TS EAMCET', year: '2021', icon: '🥈', color: '#0369A1' },
   { name: 'Nithish (Choti)', achievement: 'Rank 2312', exam: 'TS EAMCET', year: '2022', icon: '🎯', color: '#0EA5E9' },
   { name: 'Tejas Tadla', achievement: 'Rank 5944', exam: 'TS EAMCET', year: '2022', icon: '⭐', color: '#0284C7' },
-  { name: 'Anonymous', achievement: '97.7 Percentile', exam: 'JEE Mains', year: '2021', icon: '🎓', color: '#0369A1' },
-  { name: 'Sai Kiran', achievement: '98.2%', exam: 'Board Topper', year: '2021', icon: '🏅', color: '#0EA5E9' },
+  { name: 'Learning Point Student', achievement: '99.2 Percentile', exam: 'JEE Mains', year: '2021', icon: '🎓', color: '#0369A1' },
+  { name: 'Sai Kiran', achievement: '98.2%', exam: '12th Board Topper', year: '2021', icon: '🏅', color: '#0EA5E9' },
 ]
 
 export function Results() {
@@ -280,7 +251,7 @@ export function Results() {
             <h2 className="sec-title">Why Our <span>Results Speak</span></h2>
           </div>
           <div className="track-grid">
-            {[['Most of our students', 'achieved below 5000 ranks in EAMCET 2021 & 2022'], ['15+ years', 'of proven teaching experience'], ['97.7 percentile', 'in JEE Mains achieved by our student'], ['960/1000', 'scored in board exams by our student Rachana']].map(([n, l]) => (
+            {[['Most of our students', 'achieved below 5000 ranks in EAMCET 2021 & 2022'], ['20+ years', 'of proven teaching experience'], ['99.7 percentile', 'in JEE Mains achieved by our student'], ['960/1000', 'scored in board exams by our student Rachana']].map(([n, l]) => (
               <div className="track-card" key={n}>
                 <div className="track-num">{n}</div>
                 <div className="track-lbl">{l}</div>
@@ -295,7 +266,7 @@ export function Results() {
           <span className="sec-tag">Student Testimonial</span>
           <h2 className="sec-title">What Our <span>Students Say</span></h2>
           <div className="testimonial-highlight">
-            <div className="th-quote">"Good morning sir. I got 97.7 percentile in JEE 2nd attempt. Thank you soo much for your support sir. 🙏🙏"</div>
+            <div className="th-quote">"Good morning sir. I got 99.3 percentile in JEE 2nd attempt. Thank you soo much for your support sir. 🙏🙏"</div>
             <div className="th-author">— A Learning Point Student</div>
           </div>
           <div className="testimonial-highlight">

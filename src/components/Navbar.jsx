@@ -30,7 +30,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-inner container">
         <Link to="/" className="nav-logo">
-          <img src="/photos/logo.jpeg" alt="Learning Point" style={{ height: '40px', width: '40px', borderRadius: '8px', objectFit: 'cover' }} />
+          <img src="/learning-point-website/photos/logo.jpeg" alt="Learning Point" style={{ height: '40px', width: '40px', borderRadius: '8px', objectFit: 'cover' }} />
           <div>
             <div className="logo-name">Learning Point</div>
             <div className="logo-sub">IIT JEE · Hyderabad</div>

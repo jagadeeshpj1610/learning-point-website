@@ -137,7 +137,7 @@ export default function Home() {
             {[
               { ico: '📖', title: 'Class X', desc: 'Strong board exam preparation with all subjects covered by dedicated teachers.', tags: ['Maths', 'Science', 'English', 'Social'] },
               { ico: '🎯', title: 'Intermediate (MPC)', desc: 'Expert coaching for Maths, Physics & Chemistry with focus on concept clarity.', tags: ['Physics', 'Chemistry', 'Maths'] },
-              { ico: '🔬', title: 'IIT JEE & NEET', desc: 'Specialized coaching with unique tricks & shortcuts. Students cracking IIT JEE, NEET & EAMCET 2025!', tags: ['IIT JEE', 'NEET', 'EAMCET'] },
+              { ico: '🔬', title: 'IIT JEE & NEET & EAMCET', desc: 'Specialized coaching with unique tricks & shortcuts. Students cracking IIT JEE, NEET & EAMCET 2025!', tags: ['IIT JEE', 'NEET', 'EAMCET'] },
             ].map(({ ico, title, desc, tags }, i) => (
               <div className="card course-card" key={i}>
                 <div className="course-top-bar" />

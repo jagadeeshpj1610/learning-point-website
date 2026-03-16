@@ -102,7 +102,7 @@ const allCourses = [
   },
   {
     ico: '🎯', title: 'EAMCET', sub: 'TS & AP EAMCET', popular: false,
-    desc: 'Expert EAMCET coaching with chapter-wise weightage focus, unique tricks in Maths, and shortcut methods. Students cracked EAMCET 2025, 2024, 2022 & 2021 with our help!',
+    desc: 'Expert EAMCET coaching with chapter-wise weightage focus, unique tricks in Maths, and shortcut methods.Most of our Students achieved below 5000 Ranks in EAMCET 2025, 2024, 2022 & 2021.',
     tags: ['TS EAMCET', 'AP EAMCET', 'Crash Course'], subjects: ['Mathematics', 'Physics', 'Chemistry'],
     fee: 'Contact for details', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
   },

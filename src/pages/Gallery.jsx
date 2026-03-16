@@ -1,1 +1,1 @@
-export { Gallery as default } from './Pages.jsx'
+// export { Gallery as default } from './Pages.jsx'

@@ -30,15 +30,18 @@
 .cta-strip p { color: rgba(255,255,255,0.8); font-size: 13px; }
 
 /* COURSES */
-.all-courses-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+.all-courses-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; padding-top: 30px; }
 .course-detail-card { background: white; border: 1px solid var(--sky-border); border-radius: 18px; padding: 28px; position: relative; transition: box-shadow 0.2s; overflow: hidden;  display: flex; flex-direction: column;}
 .course-detail-card.popular { border: 2px solid var(--sky); }
 .course-detail-card:hover { box-shadow: 0 8px 32px rgba(14,165,233,0.12); }
+.course-card-wrapper { position: relative; padding-top: 20px; }
 .course-detail-card > a {
   margin-top: auto !important;
 }
-.popular-badge { position: absolute; top: -13px; left: 50%; transform: translateX(-50%); background: var(--sky); color: white; font-size: 11px; font-weight: 700; padding: 4px 16px; border-radius: 20px; white-space: nowrap; }
-.cdc-top-bar { position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--sky), #7EE8FF); border-radius: 18px 18px 0 0; }
+.popular-badge { position: absolute; top: -20px; left: 50%; transform: translateX(-50%); background: var(--sky); color: white; font-size: 11px; font-weight: 700; padding: 4px 16px; border-radius: 20px; white-space: nowrap; }
+/* .cdc-top-bar { position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--sky), #7EE8FF); border-radius: 18px 18px 0 0; overflow: hidden;} */
+.cdc-top-bar-wrapper { position: absolute; top: 0; left: 0; right: 0; height: 4px; border-radius: 18px 18px 0 0; overflow: hidden; }
+.cdc-top-bar { height: 4px; background: linear-gradient(90deg, var(--sky), #7EE8FF); }
 .cdc-header { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; margin-top: 8px; }
 .cdc-ico { font-size: 28px; }
 .cdc-title { font-size: 17px; font-weight: 800; color: var(--sky-head); }
@@ -56,6 +59,9 @@
 .fee-note-icon { font-size: 32px; flex-shrink: 0; }
 .fee-note-title { font-size: 18px; font-weight: 700; color: var(--sky-head); margin-bottom: 8px; }
 .fee-note-text { color: var(--gray); font-size: 14px; line-height: 1.7; }
+.course-card-wrapper { position: relative; padding-top: 20px; display: flex; flex-direction: column; }
+.course-detail-card { background: white; border: 1px solid var(--sky-border); border-radius: 18px; padding: 28px; position: relative; transition: box-shadow 0.2s; overflow: hidden; display: flex; flex-direction: column; flex: 1; }
+
 
 /* RESULTS */
 .results-big-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 20px; }

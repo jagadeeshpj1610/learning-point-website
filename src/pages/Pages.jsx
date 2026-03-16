@@ -143,13 +143,15 @@ export function Courses() {
         </div>
       </div>
 
-      <section className="sec sec-white">
+      <section className="sec sec-white" style={{ paddingTop: '50px', overflow: 'visible' }}>
         <div className="container">
-          <div className="all-courses-grid">
+          {/* <div className="all-courses-grid">
             {allCourses.map(({ ico, title, sub, popular, desc, tags, subjects, fee, batches }) => (
               <div className={`course-detail-card ${popular ? 'popular' : ''}`} key={title}>
+                <div className="cdc-top-bar-wrapper">
+                  <div className="cdc-top-bar" />
+                </div>
                 {popular && <div className="popular-badge">⭐ Most Popular</div>}
-                <div className="cdc-top-bar" />
                 <div className="cdc-header">
                   <div className="cdc-ico">{ico}</div>
                   <div>
@@ -171,6 +173,37 @@ export function Courses() {
                 </a>
               </div>
             ))}
+          </div> */}
+          <div className="all-courses-grid">
+            {allCourses.map(({ ico, title, sub, popular, desc, tags, subjects, fee, batches }) => (
+              <div className="course-card-wrapper" key={title}>
+                {popular && <div className="popular-badge">⭐ Most Popular</div>}
+                <div className={`course-detail-card ${popular ? 'popular' : ''}`}>
+                  <div className="cdc-top-bar-wrapper">
+                    <div className="cdc-top-bar" />
+                  </div>
+                  <div className="cdc-header">
+                    <div className="cdc-ico">{ico}</div>
+                    <div>
+                      <div className="cdc-title">{title}</div>
+                      <div className="cdc-sub">{sub}</div>
+                    </div>
+                  </div>
+                  <p className="cdc-desc">{desc}</p>
+                  <div className="cdc-section-title">Subjects</div>
+                  <div className="cdc-tags">{subjects.map(s => <span className="ctag" key={s}>{s}</span>)}</div>
+                  <div className="cdc-section-title" style={{ marginTop: '12px' }}>Exam Focus</div>
+                  <div className="cdc-tags">{tags.map(t => <span className="ctag-gold" key={t}>{t}</span>)}</div>
+                  <div className="cdc-info">
+                    <div className="cdc-info-row"><span>💰</span><div><div className="cdc-info-lbl">Fee</div><div className="cdc-info-val">{fee}</div></div></div>
+                    <div className="cdc-info-row"><span>🕐</span><div><div className="cdc-info-lbl">Batches</div><div className="cdc-info-val">{batches}</div></div></div>
+                  </div>
+                  <a href="https://wa.me/918247725301" className="btn-primary" target="_blank" rel="noreferrer">
+                    <FaWhatsapp size={16} /> WhatsApp : 82477 25301
+                  </a>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -186,7 +219,9 @@ export function Courses() {
               <div className="fee-note-title">Contact Us for Current Fee Details</div>
               <div className="fee-note-text">IIT JEE yearly course: Upto ₹1,80,000/year approx. For crash courses and other programs, contact us directly.</div>
               <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', marginTop: '16px', flexWrap: 'wrap' }}>
-                <a href="https://wa.me/918247725301" className="btn-primary" target="_blank" rel="noreferrer">💬 WhatsApp: 82477 25301</a>
+                <a href="https://wa.me/918247725301" className="btn-primary" target="_blank" rel="noreferrer">
+                  <FaWhatsapp size={16} /> WhatsApp : 82477 25301
+                </a>
                 <a href="tel:9885609184" className="btn-outline">📞 98856 09184</a>
               </div>
             </div>

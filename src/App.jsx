@@ -6,7 +6,7 @@ import FloatBtns from './components/FloatBtns'
 import Home from './pages/Home'
 import About from './pages/About'
 import Courses from './pages/Courses'
-// import Results from './pages/Results'
+import Results from './pages/Results'
 // import Gallery from './pages/Gallery'
 // import Contact from './pages/Contact'
 
@@ -25,8 +25,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
-        {/* <Route path="/results" element={<Results />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/results" element={<Results />} />
+        {/* <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <Footer />

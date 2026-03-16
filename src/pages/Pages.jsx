@@ -198,80 +198,80 @@ export function Courses() {
 }
 
 // ─── RESULTS PAGE ───────────────────────────────────────────────────────────
-// const results = [
-//   { name: 'Rachana', achievement: '960 / 1000', exam: 'Board Exams', year: '2021', icon: '🏆', color: '#0EA5E9' },
-//   { name: 'Meher Sai', achievement: 'Rank 733', exam: 'TS EAMCET', year: '2022', icon: '🥇', color: '#0284C7' },
-//   { name: 'Siddarth (Annamaneni)', achievement: 'Rank 992', exam: 'TS EAMCET', year: '2021', icon: '🥈', color: '#0369A1' },
-//   { name: 'Nithish (Choti)', achievement: 'Rank 2312', exam: 'TS EAMCET', year: '2022', icon: '🎯', color: '#0EA5E9' },
-//   { name: 'Tejas Tadla', achievement: 'Rank 5944', exam: 'TS EAMCET', year: '2022', icon: '⭐', color: '#0284C7' },
-//   { name: 'Anonymous', achievement: '97.7 Percentile', exam: 'JEE Mains', year: '2021', icon: '🎓', color: '#0369A1' },
-//   { name: 'Sai Kiran', achievement: '98.2%', exam: 'Board Topper', year: '2021', icon: '🏅', color: '#0EA5E9' },
-// ]
+const results = [
+  { name: 'Rachana', achievement: '960 / 1000', exam: 'Board Exams', year: '2021', icon: '🏆', color: '#0EA5E9' },
+  { name: 'Meher Sai', achievement: 'Rank 733', exam: 'TS EAMCET', year: '2022', icon: '🥇', color: '#0284C7' },
+  { name: 'Siddarth (Annamaneni)', achievement: 'Rank 992', exam: 'TS EAMCET', year: '2021', icon: '🥈', color: '#0369A1' },
+  { name: 'Nithish (Choti)', achievement: 'Rank 2312', exam: 'TS EAMCET', year: '2022', icon: '🎯', color: '#0EA5E9' },
+  { name: 'Tejas Tadla', achievement: 'Rank 5944', exam: 'TS EAMCET', year: '2022', icon: '⭐', color: '#0284C7' },
+  { name: 'Anonymous', achievement: '97.7 Percentile', exam: 'JEE Mains', year: '2021', icon: '🎓', color: '#0369A1' },
+  { name: 'Sai Kiran', achievement: '98.2%', exam: 'Board Topper', year: '2021', icon: '🏅', color: '#0EA5E9' },
+]
 
-// export function Results() {
-//   return (
-//     <>
-//       <div className="page-hero">
-//         <div className="container">
-//           <span className="sec-tag">Our Achievements</span>
-//           <h1>Student <span>Results</span></h1>
-//           <p>Our students consistently achieve top ranks in EAMCET, JEE and board exams</p>
-//         </div>
-//       </div>
+export function Results() {
+  return (
+    <>
+      <div className="page-hero">
+        <div className="container">
+          <span className="sec-tag">Our Achievements</span>
+          <h1>Student <span>Results</span></h1>
+          <p>Our students consistently achieve top ranks in EAMCET, JEE and board exams</p>
+        </div>
+      </div>
 
-//       <section className="sec sec-white">
-//         <div className="container">
-//           <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-//             <span className="sec-tag">EAMCET & JEE Results</span>
-//             <h2 className="sec-title">Our <span>Toppers</span></h2>
-//           </div>
-//           <div className="results-big-grid">
-//             {results.map(({ name, achievement, exam, year, icon, color }) => (
-//               <div className="result-big-card" key={name}>
-//                 <div className="rbc-icon" style={{ background: color }}>{icon}</div>
-//                 <div className="rbc-achievement">{achievement}</div>
-//                 <div className="rbc-exam">{exam} · {year}</div>
-//                 <div className="rbc-name">{name}</div>
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       </section>
+      <section className="sec sec-white">
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+            <span className="sec-tag">EAMCET & JEE Results</span>
+            <h2 className="sec-title">Our <span>Toppers</span></h2>
+          </div>
+          <div className="results-big-grid">
+            {results.map(({ name, achievement, exam, year, icon, color }) => (
+              <div className="result-big-card" key={name}>
+                <div className="rbc-icon" style={{ background: color }}>{icon}</div>
+                <div className="rbc-achievement">{achievement}</div>
+                <div className="rbc-exam">{exam} · {year}</div>
+                <div className="rbc-name">{name}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-//       <section className="sec sec-cream">
-//         <div className="container">
-//           <div style={{ textAlign: 'center', marginBottom: '36px' }}>
-//             <span className="sec-tag">Our Track Record</span>
-//             <h2 className="sec-title">Why Our <span>Results Speak</span></h2>
-//           </div>
-//           <div className="track-grid">
-//             {[['Most of our students', 'achieved below 5000 ranks in EAMCET 2021 & 2022'], ['15+ years', 'of proven teaching experience'], ['97.7 percentile', 'in JEE Mains achieved by our student'], ['960/1000', 'scored in board exams by our student Rachana']].map(([n, l]) => (
-//               <div className="track-card" key={n}>
-//                 <div className="track-num">{n}</div>
-//                 <div className="track-lbl">{l}</div>
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       </section>
+      <section className="sec sec-cream">
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '36px' }}>
+            <span className="sec-tag">Our Track Record</span>
+            <h2 className="sec-title">Why Our <span>Results Speak</span></h2>
+          </div>
+          <div className="track-grid">
+            {[['Most of our students', 'achieved below 5000 ranks in EAMCET 2021 & 2022'], ['15+ years', 'of proven teaching experience'], ['97.7 percentile', 'in JEE Mains achieved by our student'], ['960/1000', 'scored in board exams by our student Rachana']].map(([n, l]) => (
+              <div className="track-card" key={n}>
+                <div className="track-num">{n}</div>
+                <div className="track-lbl">{l}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-//       <section className="sec sec-white">
-//         <div className="container" style={{ textAlign: 'center' }}>
-//           <span className="sec-tag">Student Testimonial</span>
-//           <h2 className="sec-title">What Our <span>Students Say</span></h2>
-//           <div className="testimonial-highlight">
-//             <div className="th-quote">"Good morning sir. I got 97.7 percentile in JEE 2nd attempt. Thank you soo much for your support sir. 🙏🙏"</div>
-//             <div className="th-author">— A Learning Point Student</div>
-//           </div>
-//           <div className="testimonial-highlight">
-//             <div className="th-quote">"Thank you for helping me to crack EAMCET 2025 especially maths sir give me so many shortcuts that made my exam so much easier."</div>
-//             <div className="th-author">— Ramadevi Saagi, EAMCET 2025</div>
-//           </div>
-//         </div>
-//       </section>
-//     </>
-//   )
-// }
+      <section className="sec sec-white">
+        <div className="container" style={{ textAlign: 'center' }}>
+          <span className="sec-tag">Student Testimonial</span>
+          <h2 className="sec-title">What Our <span>Students Say</span></h2>
+          <div className="testimonial-highlight">
+            <div className="th-quote">"Good morning sir. I got 97.7 percentile in JEE 2nd attempt. Thank you soo much for your support sir. 🙏🙏"</div>
+            <div className="th-author">— A Learning Point Student</div>
+          </div>
+          <div className="testimonial-highlight">
+            <div className="th-quote">"Thank you for helping me to crack EAMCET 2025 especially maths sir give me so many shortcuts that made my exam so much easier."</div>
+            <div className="th-author">— Ramadevi Saagi, EAMCET 2025</div>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
 
 // ─── GALLERY PAGE ────────────────────────────────────────────────────────────
 // const galleryItems = [

@@ -58,7 +58,7 @@
 .fee-note-text { color: var(--gray); font-size: 14px; line-height: 1.7; }
 
 /* RESULTS */
-/* .results-big-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 20px; }
+.results-big-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 20px; }
 .result-big-card { background: white; border: 1px solid var(--sky-border); border-radius: 18px; padding: 28px; text-align: center; transition: box-shadow 0.2s, transform 0.2s; }
 .result-big-card:hover { box-shadow: 0 8px 32px rgba(14,165,233,0.12); transform: translateY(-3px); }
 .rbc-icon { width: 56px; height: 56px; border-radius: 16px; display: flex; align-items: center; justify-content: center; font-size: 24px; margin: 0 auto 14px; }
@@ -71,7 +71,7 @@
 .track-lbl { font-size: 13px; color: var(--gray); line-height: 1.5; }
 .testimonial-highlight { background: var(--sky-pale); border: 1px solid var(--sky-border); border-radius: 16px; padding: 28px; max-width: 680px; margin: 16px auto; }
 .th-quote { font-size: 15px; color: var(--sky-head); font-style: italic; line-height: 1.75; margin-bottom: 10px; }
-.th-author { font-size: 13px; font-weight: 600; color: var(--sky); } */
+.th-author { font-size: 13px; font-weight: 600; color: var(--sky); }
 
 /* GALLERY */
 /* .gallery-masonry { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }

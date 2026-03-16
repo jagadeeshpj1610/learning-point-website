@@ -96,13 +96,13 @@ export function About() {
 const allCourses = [
   {
     ico: '🔬', title: 'IIT JEE', sub: 'Yearly & Crash Course', popular: true,
-    desc: 'Specialized IIT JEE coaching with unique tricks, shortcut methods and focused guidance. Faculty with 20+ years experience. Most of our students achieved below 5000 ranks in EAMCET 2021 & 2022.',
+    desc: 'Specialized IIT JEE coaching with unique tricks, shortcut methods and focused guidance. Faculty with 20+ years of experience. More than 10 students scored above 99.2 percentile in IIT JEE Mains across 2021, 2022, 2023, 2024 & 2025.',
     tags: ['IIT JEE Main', 'JEE Advanced', 'BITSAT'], subjects: ['Mathematics', 'Physics', 'Chemistry'],
     fee: '1,20,000 Max/Year', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
   },
   {
     ico: '🎯', title: 'EAMCET', sub: 'TS & AP EAMCET', popular: false,
-    desc: 'Expert EAMCET coaching with chapter-wise weightage focus, unique tricks in Maths, and shortcut methods. Students cracked EAMCET 2025 with our help!',
+    desc: 'Expert EAMCET coaching with chapter-wise weightage focus, unique tricks in Maths, and shortcut methods. Students cracked EAMCET 2025, 2024, 2022 & 2021 with our help!',
     tags: ['TS EAMCET', 'AP EAMCET', 'Crash Course'], subjects: ['Mathematics', 'Physics', 'Chemistry'],
     fee: 'Contact for details', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
   },

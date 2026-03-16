@@ -93,109 +93,109 @@ export function About() {
 }
 
 // ─── COURSES PAGE ───────────────────────────────────────────────────────────
-// const allCourses = [
-//   {
-//     ico: '🔬', title: 'IIT JEE', sub: 'Yearly & Crash Course', popular: true,
-//     desc: 'Specialized IIT JEE coaching with unique tricks, shortcut methods and focused guidance. Faculty with 15+ years experience. Most of our students achieved below 5000 ranks in EAMCET 2021 & 2022.',
-//     tags: ['IIT JEE Main', 'JEE Advanced', 'BITSAT'], subjects: ['Mathematics', 'Physics', 'Chemistry'],
-//     fee: 'Upto ₹1,80,000/year approx', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
-//   },
-//   {
-//     ico: '🎯', title: 'EAMCET', sub: 'TS & AP EAMCET', popular: false,
-//     desc: 'Expert EAMCET coaching with chapter-wise weightage focus, unique tricks in Maths, and shortcut methods. Students cracked EAMCET 2025 with our help!',
-//     tags: ['TS EAMCET', 'AP EAMCET', 'Crash Course'], subjects: ['Mathematics', 'Physics', 'Chemistry'],
-//     fee: 'Contact for details', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
-//   },
-//   {
-//     ico: '💊', title: 'NEET', sub: 'Medical Entrance', popular: false,
-//     desc: 'Comprehensive NEET preparation with concept-based teaching in Physics, Chemistry and Biology. Expert faculty for all three subjects.',
-//     tags: ['NEET UG', 'Medical Entrance'], subjects: ['Physics', 'Chemistry', 'Biology'],
-//     fee: 'Contact for details', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
-//   },
-//   {
-//     ico: '📖', title: 'Intermediate (MPC)', sub: 'Class XI & XII', popular: false,
-//     desc: 'Expert coaching for Intermediate MPC students. Strong focus on concept clarity and board exam preparation along with competitive exam readiness.',
-//     tags: ['TSBIE', 'CBSE', 'ISC'], subjects: ['Mathematics', 'Physics', 'Chemistry'],
-//     fee: 'Contact for details', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
-//   },
-//   {
-//     ico: '📗', title: 'Class X', sub: 'Board Exam Prep', popular: false,
-//     desc: 'Strong foundation for Class X students. Bridge & Regular courses to make IIT JEE journey easier starting from 10th grade itself.',
-//     tags: ['CBSE', 'SSC', 'ICSE'], subjects: ['Mathematics', 'Science', 'English', 'Social'],
-//     fee: 'Contact for details', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
-//   },
-//   {
-//     ico: '⚡', title: 'BITSAT', sub: 'Crash Course', popular: false,
-//     desc: 'Specialized BITSAT preparation with focused coaching on Maths, Physics, Chemistry and English proficiency.',
-//     tags: ['BITSAT', 'BITS Pilani'], subjects: ['Mathematics', 'Physics', 'Chemistry', 'English'],
-//     fee: 'Contact for details', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
-//   },
-// ]
+const allCourses = [
+  {
+    ico: '🔬', title: 'IIT JEE', sub: 'Yearly & Crash Course', popular: true,
+    desc: 'Specialized IIT JEE coaching with unique tricks, shortcut methods and focused guidance. Faculty with 15+ years experience. Most of our students achieved below 5000 ranks in EAMCET 2021 & 2022.',
+    tags: ['IIT JEE Main', 'JEE Advanced', 'BITSAT'], subjects: ['Mathematics', 'Physics', 'Chemistry'],
+    fee: 'Upto ₹1,80,000/year approx', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
+  },
+  {
+    ico: '🎯', title: 'EAMCET', sub: 'TS & AP EAMCET', popular: false,
+    desc: 'Expert EAMCET coaching with chapter-wise weightage focus, unique tricks in Maths, and shortcut methods. Students cracked EAMCET 2025 with our help!',
+    tags: ['TS EAMCET', 'AP EAMCET', 'Crash Course'], subjects: ['Mathematics', 'Physics', 'Chemistry'],
+    fee: 'Contact for details', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
+  },
+  {
+    ico: '💊', title: 'NEET', sub: 'Medical Entrance', popular: false,
+    desc: 'Comprehensive NEET preparation with concept-based teaching in Physics, Chemistry and Biology. Expert faculty for all three subjects.',
+    tags: ['NEET UG', 'Medical Entrance'], subjects: ['Physics', 'Chemistry', 'Biology'],
+    fee: 'Contact for details', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
+  },
+  {
+    ico: '📖', title: 'Intermediate (MPC)', sub: 'Class XI & XII', popular: false,
+    desc: 'Expert coaching for Intermediate MPC students. Strong focus on concept clarity and board exam preparation along with competitive exam readiness.',
+    tags: ['TSBIE', 'CBSE', 'ISC'], subjects: ['Mathematics', 'Physics', 'Chemistry'],
+    fee: 'Contact for details', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
+  },
+  {
+    ico: '📗', title: 'Class X', sub: 'Board Exam Prep', popular: false,
+    desc: 'Strong foundation for Class X students. Bridge & Regular courses to make IIT JEE journey easier starting from 10th grade itself.',
+    tags: ['CBSE', 'SSC', 'ICSE'], subjects: ['Mathematics', 'Science', 'English', 'Social'],
+    fee: 'Contact for details', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
+  },
+  {
+    ico: '⚡', title: 'BITSAT', sub: 'Crash Course', popular: false,
+    desc: 'Specialized BITSAT preparation with focused coaching on Maths, Physics, Chemistry and English proficiency.',
+    tags: ['BITSAT', 'BITS Pilani'], subjects: ['Mathematics', 'Physics', 'Chemistry', 'English'],
+    fee: 'Contact for details', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
+  },
+]
 
-// export function Courses() {
-//   return (
-//     <>
-//       <div className="page-hero">
-//         <div className="container">
-//           <span className="sec-tag">Our Programs</span>
-//           <h1>Courses We <span>Offer</span></h1>
-//           <p>Comprehensive coaching from Class X to IIT JEE Advanced</p>
-//         </div>
-//       </div>
+export function Courses() {
+  return (
+    <>
+      <div className="page-hero">
+        <div className="container">
+          <span className="sec-tag">Our Programs</span>
+          <h1>Courses We <span>Offer</span></h1>
+          <p>Comprehensive coaching from Class X to IIT JEE Advanced</p>
+        </div>
+      </div>
 
-//       <section className="sec sec-white">
-//         <div className="container">
-//           <div className="all-courses-grid">
-//             {allCourses.map(({ ico, title, sub, popular, desc, tags, subjects, fee, batches }) => (
-//               <div className={`course-detail-card ${popular ? 'popular' : ''}`} key={title}>
-//                 {popular && <div className="popular-badge">⭐ Most Popular</div>}
-//                 <div className="cdc-top-bar" />
-//                 <div className="cdc-header">
-//                   <div className="cdc-ico">{ico}</div>
-//                   <div>
-//                     <div className="cdc-title">{title}</div>
-//                     <div className="cdc-sub">{sub}</div>
-//                   </div>
-//                 </div>
-//                 <p className="cdc-desc">{desc}</p>
-//                 <div className="cdc-section-title">Subjects</div>
-//                 <div className="cdc-tags">{subjects.map(s => <span className="ctag" key={s}>{s}</span>)}</div>
-//                 <div className="cdc-section-title" style={{ marginTop: '12px' }}>Exam Focus</div>
-//                 <div className="cdc-tags">{tags.map(t => <span className="ctag-gold" key={t}>{t}</span>)}</div>
-//                 <div className="cdc-info">
-//                   <div className="cdc-info-row"><span>💰</span><div><div className="cdc-info-lbl">Fee</div><div className="cdc-info-val">{fee}</div></div></div>
-//                   <div className="cdc-info-row"><span>🕐</span><div><div className="cdc-info-lbl">Batches</div><div className="cdc-info-val">{batches}</div></div></div>
-//                 </div>
-//                 <a href="https://wa.me/918247725301" className="btn-primary" target="_blank" rel="noreferrer">
-//                   <FaWhatsapp size={16} /> WhatsApp : 82477 25301
-//                 </a>
-//               </div>
-//             ))}
-//           </div>
-//         </div>
-//       </section>
+      <section className="sec sec-white">
+        <div className="container">
+          <div className="all-courses-grid">
+            {allCourses.map(({ ico, title, sub, popular, desc, tags, subjects, fee, batches }) => (
+              <div className={`course-detail-card ${popular ? 'popular' : ''}`} key={title}>
+                {popular && <div className="popular-badge">⭐ Most Popular</div>}
+                <div className="cdc-top-bar" />
+                <div className="cdc-header">
+                  <div className="cdc-ico">{ico}</div>
+                  <div>
+                    <div className="cdc-title">{title}</div>
+                    <div className="cdc-sub">{sub}</div>
+                  </div>
+                </div>
+                <p className="cdc-desc">{desc}</p>
+                <div className="cdc-section-title">Subjects</div>
+                <div className="cdc-tags">{subjects.map(s => <span className="ctag" key={s}>{s}</span>)}</div>
+                <div className="cdc-section-title" style={{ marginTop: '12px' }}>Exam Focus</div>
+                <div className="cdc-tags">{tags.map(t => <span className="ctag-gold" key={t}>{t}</span>)}</div>
+                <div className="cdc-info">
+                  <div className="cdc-info-row"><span>💰</span><div><div className="cdc-info-lbl">Fee</div><div className="cdc-info-val">{fee}</div></div></div>
+                  <div className="cdc-info-row"><span>🕐</span><div><div className="cdc-info-lbl">Batches</div><div className="cdc-info-val">{batches}</div></div></div>
+                </div>
+                <a href="https://wa.me/918247725301" className="btn-primary" target="_blank" rel="noreferrer">
+                  <FaWhatsapp size={16} /> WhatsApp : 82477 25301
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-//       <section className="sec sec-cream">
-//         <div className="container" style={{ textAlign: 'center' }}>
-//           <span className="sec-tag">Fee Structure</span>
-//           <h2 className="sec-title">Transparent <span>Pricing</span></h2>
-//           <p className="sec-sub" style={{ margin: '0 auto 32px' }}>Affordable fees with quality education. No hidden charges.</p>
-//           <div className="fee-note-box">
-//             <div className="fee-note-icon">💡</div>
-//             <div>
-//               <div className="fee-note-title">Contact Us for Current Fee Details</div>
-//               <div className="fee-note-text">IIT JEE yearly course: Upto ₹1,80,000/year approx. For crash courses and other programs, contact us directly.</div>
-//               <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', marginTop: '16px', flexWrap: 'wrap' }}>
-//                 <a href="https://wa.me/918247725301" className="btn-primary" target="_blank" rel="noreferrer">💬 WhatsApp: 82477 25301</a>
-//                 <a href="tel:9885609184" className="btn-outline">📞 98856 09184</a>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </section>
-//     </>
-//   )
-// }
+      <section className="sec sec-cream">
+        <div className="container" style={{ textAlign: 'center' }}>
+          <span className="sec-tag">Fee Structure</span>
+          <h2 className="sec-title">Transparent <span>Pricing</span></h2>
+          <p className="sec-sub" style={{ margin: '0 auto 32px' }}>Affordable fees with quality education. No hidden charges.</p>
+          <div className="fee-note-box">
+            <div className="fee-note-icon">💡</div>
+            <div>
+              <div className="fee-note-title">Contact Us for Current Fee Details</div>
+              <div className="fee-note-text">IIT JEE yearly course: Upto ₹1,80,000/year approx. For crash courses and other programs, contact us directly.</div>
+              <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', marginTop: '16px', flexWrap: 'wrap' }}>
+                <a href="https://wa.me/918247725301" className="btn-primary" target="_blank" rel="noreferrer">💬 WhatsApp: 82477 25301</a>
+                <a href="tel:9885609184" className="btn-outline">📞 98856 09184</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
 
 // ─── RESULTS PAGE ───────────────────────────────────────────────────────────
 // const results = [

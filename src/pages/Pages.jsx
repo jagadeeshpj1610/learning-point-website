@@ -96,7 +96,7 @@ export function About() {
 const allCourses = [
   {
     ico: '🔬', title: 'IIT JEE', sub: 'Yearly & Crash Course', popular: true,
-    desc: 'Specialized IIT JEE coaching with unique tricks, shortcut methods and focused guidance. Faculty with 15+ years experience. Most of our students achieved below 5000 ranks in EAMCET 2021 & 2022.',
+    desc: 'Specialized IIT JEE coaching with unique tricks, shortcut methods and focused guidance. Faculty with 20+ years experience. Most of our students achieved below 5000 ranks in EAMCET 2021 & 2022.',
     tags: ['IIT JEE Main', 'JEE Advanced', 'BITSAT'], subjects: ['Mathematics', 'Physics', 'Chemistry'],
     fee: '1,20,000 Max/Year', batches: 'Morning 6–8:30 AM | Evening 6–8:30 PM'
   },

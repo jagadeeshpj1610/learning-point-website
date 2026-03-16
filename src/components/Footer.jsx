@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="footer-desc">
-            Expert coaching for IIT JEE, NEET, EAMCET & Intermediate. Concept-based learning with 15+ years experienced faculty in Kavadiguda, Hyderabad.
+            Expert coaching for IIT JEE, NEET, EAMCET & Intermediate. Concept-based learning with 20+ years experienced faculty in Kavadiguda, Hyderabad.
           </p>
           <div className="footer-social">
             <a href="https://youtube.com/@vamshirao9962" target="_blank" rel="noreferrer" className="fsoc"><Youtube size={16} /></a>

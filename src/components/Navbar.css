@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  background: white;
+  border-bottom: 1px solid var(--sky-border);
+  transition: box-shadow 0.3s;
+}
+.navbar.scrolled { box-shadow: 0 2px 20px rgba(14,165,233,0.12); }
+.nav-inner { display: flex; align-items: center; justify-content: space-between; height: 68px; }
+.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.logo-box { width: 40px; height: 40px; background: var(--sky); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 800; font-size: 14px; flex-shrink: 0; }
+.logo-name { font-size: 14px; font-weight: 700; color: var(--sky-head); line-height: 1.2; }
+.logo-sub { font-size: 10px; color: var(--sky); letter-spacing: 1.5px; text-transform: uppercase; }
+.nav-links { display: flex; list-style: none; gap: 28px; }
+.nav-links a { color: var(--gray); font-size: 13px; font-weight: 500; transition: color 0.2s; position: relative; padding-bottom: 4px; }
+.nav-links a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background: var(--sky); transition: width 0.2s; border-radius: 2px; }
+.nav-links a:hover, .nav-links a.active { color: var(--sky); }
+.nav-links a.active::after, .nav-links a:hover::after { width: 100%; }
+.nav-cta { background: var(--sky); color: white; padding: 9px 22px; border-radius: 8px; font-size: 13px; font-weight: 600; transition: background 0.2s; white-space: nowrap; display: flex; align-items: center; gap: 6px; }
+.nav-cta:hover { background: var(--sky-dark); }
+.hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; padding: 4px; cursor: pointer; }
+.hamburger span { display: block; width: 22px; height: 2px; background: var(--sky-head); border-radius: 2px; transition: all 0.3s; }
+.hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+.mobile-menu { background: white; border-top: 1px solid var(--sky-border); padding: 16px 24px; display: flex; flex-direction: column; gap: 2px; }
+.mobile-menu a { color: var(--sky-head); font-weight: 500; font-size: 15px; padding: 10px 0; border-bottom: 1px solid var(--sky-light); }
+.mobile-menu a.active { color: var(--sky); }
+.mobile-cta { background: var(--sky) !important; color: white !important; text-align: center; padding: 12px !important; border-radius: 8px; margin-top: 8px; border: none !important; font-weight: 600; }
+@media (max-width: 900px) { .nav-links, .nav-cta { display: none; } .hamburger { display: flex; } }

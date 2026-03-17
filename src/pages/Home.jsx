@@ -68,7 +68,7 @@ export default function Home() {
               <div className="hcard-rating">
                 <span className="stars">★★★★★</span>
                 <span className="rnum">5.0</span>
-                <span className="rsub">· 50 Google Reviews</span>
+                <span className="rsub">· 50+ Google Reviews</span>
               </div>
               <div className="hcard-info"><span className="dot" />Morning: 6–8:30 AM &nbsp;|&nbsp; Evening: 6–8:30 PM</div>
               <div className="hcard-info"><span className="dot" />Kavadiguda, Gandhinagar, Hyderabad</div>

@@ -12,7 +12,7 @@ const whys = [
   ['🏗️', 'Good Infrastructure', 'Well-equipped classrooms in a conducive learning environment. Small batches of max 25 students.'],
   ['❤️', 'Individual Attention', 'Every student gets personal attention. We identify strengths and weaknesses and work on them individually.'],
   ['🌅', 'Flexible Batches', 'Morning batch (6–8:30 AM) and Evening batch (6–8:30 PM) to suit every student\'s schedule.'],
-  ['🌟', '5.0 Star Rated', 'Rated 5.0 stars by 41+ students and parents on Google. The trust of our community is our biggest achievement.'],
+  ['🌟', '5.0 Star Rated', 'Rated 5.0 stars by 50+ students and parents on Google. The trust of our community is our biggest achievement.'],
   ['📚', 'Quality Study Material', 'Excellent study material covering all topics with shortcut methods and most-repeated model questions.'],
   ['🎯', 'Exam Focused Teaching', 'Discussion of most repeated model questions, portion-wise tests, and present exam trending questions.'],
 ]
@@ -354,7 +354,7 @@ export function Contact() {
                 ['✉️', 'Email', 'learningpoint1729@gmail.com'],
                 ['🕐', 'Batch Timings', 'Morning: 6:00 AM – 8:30 AM\nEvening: 6:00 PM – 8:30 PM'],
                 ['📅', 'Working Days', 'Monday to Saturday'],
-                ['⭐', 'Google Rating', '5.0 ★ · 41 Reviews · Coaching Center'],
+                ['⭐', 'Google Rating', '5.0 ★ · 50+  Reviews · Coaching Center'],
               ].map(([ico, lbl, val]) => (
                 <div className="contact-item" key={lbl}>
                   <div className="ci-ico">{ico}</div>

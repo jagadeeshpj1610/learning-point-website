@@ -68,7 +68,7 @@ export default function Home() {
               <div className="hcard-rating">
                 <span className="stars">★★★★★</span>
                 <span className="rnum">5.0</span>
-                <span className="rsub">· 41 Google Reviews</span>
+                <span className="rsub">· 50 Google Reviews</span>
               </div>
               <div className="hcard-info"><span className="dot" />Morning: 6–8:30 AM &nbsp;|&nbsp; Evening: 6–8:30 PM</div>
               <div className="hcard-info"><span className="dot" />Kavadiguda, Gandhinagar, Hyderabad</div>
@@ -80,7 +80,7 @@ export default function Home() {
       {/* STRIP */}
       <div className="strip">
         <div className="strip-inner">
-          {['🎓 IIT JEE Coaching', '📚 NEET & EAMCET', '🌅 Morning & Evening Batches', '🏆 5.0 Google Rating · 41 Reviews', '☎ 82477 25301'].map((item, i) => (
+          {['🎓 IIT JEE Coaching', '📚 NEET & EAMCET', '🌅 Morning & Evening Batches', '🏆 5.0 Google Rating · 50+ Reviews', '☎ 82477 25301'].map((item, i) => (
             <span className="strip-item" key={i}>{item}</span>
           ))}
         </div>
@@ -89,7 +89,7 @@ export default function Home() {
       {/* STATS */}
       <section className="sec sec-white">
         <div className="container stats-grid">
-          {[['41+', 'Google Reviews'], [`20+`, 'Years Experience'], ['5.0★', 'Google Rating'], ['25', 'Max Batch Size']].map(([n, l]) => (
+          {[['50+', 'Google Reviews'], [`20+`, 'Years Experience'], ['5.0★', 'Google Rating'], ['25', 'Max Batch Size']].map(([n, l]) => (
             <div className="stat-box" key={l}>
               <div className="stat-num">{n}</div>
               <div className="stat-lbl">{l}</div>
@@ -117,7 +117,7 @@ export default function Home() {
             <div className="quote-mark">"</div>
             <p className="quote-text">One can experience concept based learning here. Good infrastructural facilities with experienced staff and a conducive environment.</p>
             <div className="panel-stats">
-              {[['5.0★', 'Rating'], ['41+', 'Reviews'], ['2', 'Batches']].map(([n, l]) => (
+              {[['5.0★', 'Rating'], ['50+', 'Reviews'], ['2', 'Batches']].map(([n, l]) => (
                 <div className="panel-stat" key={l}><div className="pnum">{n}</div><div className="plbl">{l}</div></div>
               ))}
             </div>
@@ -224,7 +224,7 @@ export default function Home() {
             </div>
             <div className="rating-showcase">
               <div className="rating-big">5.0</div>
-              <div><div className="stars-big">★★★★★</div><div className="rcnt">Based on 41 Google Reviews</div></div>
+              <div><div className="stars-big">★★★★★</div><div className="rcnt">Based on 50+ Google Reviews</div></div>
             </div>
           </div>
           <div className="reviews-grid">
@@ -240,8 +240,8 @@ export default function Home() {
             ))}
           </div>
           <div style={{ textAlign: 'center', marginTop: '24px' }}>
-            <a href="https://maps.app.goo.gl/BEGtejzFgnVphU77A" target="_blank" rel="noreferrer" className="btn-outline">View All 41 Reviews on Google →</a>
-            {/* <a href="https://share.google/qBSzSXIgh2o7mJ8Sg" target="_blank" rel="noreferrer" className="btn-outline">View All 41 Reviews on Google →</a> */}
+            <a href="https://maps.app.goo.gl/BEGtejzFgnVphU77A" target="_blank" rel="noreferrer" className="btn-outline">View All 50+ Reviews on Google →</a>
+            {/* <a href="https://share.google/qBSzSXIgh2o7mJ8Sg" target="_blank" rel="noreferrer" className="btn-outline">View All 50+ Reviews on Google →</a> */}
           </div>
         </div>
       </section>

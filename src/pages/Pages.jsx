@@ -251,7 +251,7 @@ export function Results() {
             <h2 className="sec-title">Why Our <span>Results Speak</span></h2>
           </div>
           <div className="track-grid">
-            {[['Most of our students', 'achieved below 5000 ranks in EAMCET 2025, 2024, 2023, 2022 & 2021'], ['20+ years', 'of proven teaching experience'], ['99.7 percentile', 'in JEE Mains achieved by our student'], ['960/1000', 'scored in board exams by our student Rachana']].map(([n, l]) => (
+            {[['Most of our students', 'Achieved below 5000 ranks in EAMCET 2025, 2024, 2023, 2022 & 2021'], ['20+ years', 'of proven teaching experience'], ['99.7 percentile', 'in JEE Mains achieved by our student'], ['960/1000', 'scored in board exams by our student Rachana']].map(([n, l]) => (
               <div className="track-card" key={n}>
                 <div className="track-num">{n}</div>
                 <div className="track-lbl">{l}</div>

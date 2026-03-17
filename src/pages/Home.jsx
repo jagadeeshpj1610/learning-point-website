@@ -29,7 +29,7 @@ function Counter({ target, suffix = '' }) {
 
 const reviews = [
   { av: 'AM', name: 'Avinash Manyam', date: '4 years ago · Local Guide', text: 'Must-join for IIT/JEE. Truly commendable and experienced faculty — lecturers really get along with the students!' },
-  { av: 'RS', name: 'Ramadevi Saagi', date: '2 days ago · New', text: 'Thank you for helping me crack EAMCET 2025! Maths sir\'s shortcuts made my exam so much easier.' },
+  { av: 'RS', name: 'Ramya Saagi', date: '2 days ago · New', text: 'Thank you for helping me crack EAMCET 2025! Maths sir\'s shortcuts made my exam so much easier.' },
   { av: 'TG', name: 'Trilok Gangarapu', date: '14 hours ago · New', text: 'Best institute for competitive exams. MAINS and EAPCET coaching facilities are top notch. Just go for it!' },
   { av: 'PC', name: 'Prajeeth C', date: '3 years ago', text: 'Amazing faculty! Can understand concepts easily. Love the vibe of the place. Worth every penny!' },
   { av: 'RM', name: 'Ram Madhav Madadi', date: '2 years ago', text: 'Good infrastructural facilities with experienced staff. Highly recommend it.' },
@@ -167,7 +167,7 @@ export default function Home() {
               { name: 'Rachana', achievement: '960/1000', exam: 'Board Exams', icon: '🏆' },
               { name: 'Meher Sai', achievement: 'Rank 733', exam: 'TS EAMCET', icon: '🥇' },
               { name: 'Siddarth', achievement: 'Rank 992', exam: 'TS EAMCET', icon: '🥈' },
-              { name: 'Learning Point Student', achievement: '99.2%ile', exam: 'JEE Mains', icon: '🎯' },
+              { name: 'Harika', achievement: '99.2%ile', exam: 'JEE Mains', icon: '🎯' },
             ].map(({ name, achievement, exam, icon }) => (
               <div className="result-card" key={name}>
                 <div className="result-icon">{icon}</div>

@@ -210,7 +210,7 @@ const results = [
   { name: 'Siddarth (Annamaneni)', achievement: 'Rank 992', exam: 'TS EAMCET', year: '2021', icon: '🥈', color: '#0369A1' },
   { name: 'Nithish (Choti)', achievement: 'Rank 2312', exam: 'TS EAMCET', year: '2022', icon: '🎯', color: '#0EA5E9' },
   { name: 'Tejas Tadla', achievement: 'Rank 5944', exam: 'TS EAMCET', year: '2022', icon: '⭐', color: '#0284C7' },
-  { name: 'Learning Point Student', achievement: '99.2 Percentile', exam: 'JEE Mains', year: '2021', icon: '🎓', color: '#0369A1' },
+  { name: 'Harika', achievement: '99.2 Percentile', exam: 'JEE Mains', year: '2021', icon: '🎓', color: '#0369A1' },
   { name: 'Sai Kiran', achievement: '98.2%', exam: '12th Board Topper', year: '2021', icon: '🏅', color: '#0EA5E9' },
 ]
 
@@ -267,11 +267,11 @@ export function Results() {
           <h2 className="sec-title">What Our <span>Students Say</span></h2>
           <div className="testimonial-highlight">
             <div className="th-quote">"Good morning sir. I got 99.3 percentile in JEE 2nd attempt. Thank you soo much for your support sir. 🙏🙏"</div>
-            <div className="th-author">— A Learning Point Student</div>
+            <div className="th-author">— Navya</div>
           </div>
           <div className="testimonial-highlight">
             <div className="th-quote">"Thank you for helping me to crack EAMCET 2025 especially maths sir give me so many shortcuts that made my exam so much easier."</div>
-            <div className="th-author">— Ramadevi Saagi, EAMCET 2025</div>
+            <div className="th-author">— Deva, EAMCET 2025</div>
           </div>
         </div>
       </section>
